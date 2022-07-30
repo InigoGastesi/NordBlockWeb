@@ -1,0 +1,22 @@
+[
+  {
+    "screen": "home",
+    "cards": [
+      {
+        "titulo": "NordBlock",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
+        "images": [""]
+      }
+    ]
+  },
+  {
+    "screen": "Deposito",
+    "cards": [
+      {
+        "titulo": "NordBlock",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
+        "images": [""]
+      }
+    ]
+  }
+]
