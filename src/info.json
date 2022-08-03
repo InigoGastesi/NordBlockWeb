@@ -1,6 +1,7 @@
 [
   {
     "screen": "Home",
+    "titulo" : "",
     "route": "/",
     "cards": [
       {
@@ -21,6 +22,7 @@
   },
   {
     "screen": "Deposito",
+    "titulo" : "Depositos prefabricados de hormigón",
     "route": "/deposito",
     "cards": [
       {
@@ -42,6 +44,7 @@
   },
   {
     "screen": "Gradas y vigas",
+    "titulo" : "",
     "route": "/gradas",
     "cards": [
       {
@@ -63,6 +66,7 @@
   },
   {
     "screen": "Cementerios",
+    "titulo" : "",
     "route": "/cementerios",
     "cards": [
       {
@@ -84,6 +88,7 @@
   },
   {
     "screen": "Losas",
+    "titulo" : "",
     "route": "/losas",
     "cards": [
       {
@@ -105,6 +110,7 @@
   },
   {
     "screen": "Muro de contención",
+    "titulo" : "",
     "route": "/contencion",
     "cards": [
       {
@@ -126,6 +132,7 @@
   },
   {
     "screen": "Contacto",
+    "titulo" : "",
     "route": "/contacto",
     "cards": [
       {

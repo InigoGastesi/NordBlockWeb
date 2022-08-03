@@ -2,15 +2,18 @@ import { Navbar, Card, Minicard, Productdescriptor } from "../components";
 import background from "../assets/deposito_1.jpg";
 import Context from "../context/Context";
 import { useContext } from "react";
-export function Deposito() {
+import { IScreen } from "../interface/jsondata";
+
+
+export function Deposito({screen, titulo}:IScreen) {
   const screenInfo = useContext(Context);
-  let data = screenInfo?.find((e) => e.screen == "Deposito");
+  let data = screenInfo?.find((e) => e.screen == screen);
 
   let cards = data?.cards;
   return (
     <div>
-      <h1 className="font-poppins py-8 px-32 text-blue font-bold text-3xl">Depositos prefabricados de hormigón</h1>
-      <div className="grid grid-cols-3 w-screen gap-44 p-8 px-80">
+      <h1 className="font-poppins py-8 px-32 text-blue font-bold text-3xl">{titulo}</h1>
+      <div className="grid grid-cols-3 w-screen gap-20 p-8 px-80">
         {cards?.map(({ titulo, info, images }) => {
           return (
             <Minicard titulo={titulo} info={info} images={images}></Minicard>

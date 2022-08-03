@@ -2,6 +2,7 @@ import { Card, Minicard } from "../components";
 import background from "../assets/deposito_1.jpg";
 import Context from "../context/Context";
 import { useContext } from "react";
+
 export function Home() {
   const screenInfo = useContext(Context);
   let data = screenInfo?.find((e) => e.screen == "Home");
