@@ -11,6 +11,7 @@ export function Router() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/deposito" element={<Deposito/>}/>
+            <Route path="/gradas" element={<Deposito/>}/>
             <Route path="*" element={<div>404</div>}/>
         </Routes>
     )

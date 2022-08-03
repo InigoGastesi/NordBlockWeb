@@ -1,15 +1,29 @@
-import { Navbar, Card } from "../components";
-
+import { Navbar, Card, Minicard, Productdescriptor } from "../components";
+import background from "../assets/deposito_1.jpg";
+import Context from "../context/Context";
+import { useContext } from "react";
 export function Deposito() {
+  const screenInfo = useContext(Context);
+  let data = screenInfo?.find((e) => e.screen == "Deposito");
+
+  let cards = data?.cards;
   return (
-    <div className="flex flex-col justify-center w-screen">
-      <div className="grid p-8 place-items-center">
-        <Card></Card>
+    <div>
+      <h1 className="font-poppins py-8 px-32 text-blue font-bold text-3xl">Depositos prefabricados de hormigón</h1>
+      <div className="grid grid-cols-3 w-screen gap-44 p-8 px-80">
+        {cards?.map(({ titulo, info, images }) => {
+          return (
+            <Minicard titulo={titulo} info={info} images={images}></Minicard>
+          );
+        })}
       </div>
-      <ul className="flex flex-row justify-center p-4">
-        <li className="w-screen"><Card></Card></li>
-        <li className="w-screen"><Card></Card></li>
-      </ul>
+      <div className="grid grid-cols-1 w-screen gap-8 p-8 px-80 h-screen">
+        {cards?.map(({ titulo, info, images }) => {
+          return (
+            <Productdescriptor titulo={titulo} info={info} images={images}></Productdescriptor>
+          );
+        })}
+      </div>
     </div>
   );
 }

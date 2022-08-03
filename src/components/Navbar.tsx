@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/NordBlock_-_Brandmark_-_Full_color_-_Digital_-_Alpha.svg";
-import screenInfo from "../info.json"
+import Context from "../context/Context";
+
 
 export function Navbar() {
+  const screenInfo = useContext(Context)
   const navigate = useNavigate();
 
   return (
@@ -12,23 +15,7 @@ export function Navbar() {
 
         <div>
           <ul className="flex flex-row grow">
-            <li
-              className="font-poppins cursor-pointer"
-              onClick={() => navigate("/")}
-            >
-              Inicio
-            </li>
-            <li
-              className="font-poppins cursor-pointer"
-              onClick={() => navigate("/deposito")}
-            >
-              Depósito
-            </li>
-            <li className="font-poppins cursor-pointer">Gradas y vigas</li>
-            <li className="font-poppins cursor-pointer">Cementerios</li>
-            <li className="font-poppins cursor-pointer">Losas</li>
-            <li className="font-poppins cursor-pointer">Muros de contención</li>
-            <li className="font-poppins cursor-pointer">Contacto</li>
+            {screenInfo?.map(({ screen, route }) => {return <li className="p-4 font-poppins text-white hover:text-pink cursor-pointer" onClick={()=>navigate(route)}>{screen}</li>})}
           </ul>
         </div>
       </div>
