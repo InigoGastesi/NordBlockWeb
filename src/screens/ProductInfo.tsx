@@ -27,12 +27,13 @@ export function ProductInfo({ screen, titulo }: IScreen) {
         {cards?.map(({ titulo, info, images }) => {
           return (
             <div>
-            <Element name={titulo}></Element>
-            <Productdescriptor
-              titulo={titulo}
-              info={info}
-              images={images}
-            ></Productdescriptor></div>
+              <Element name={titulo}></Element>
+              <Productdescriptor
+                titulo={titulo}
+                info={info}
+                images={images}
+              ></Productdescriptor>
+            </div>
           );
         })}
       </div>
