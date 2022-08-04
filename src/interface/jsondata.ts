@@ -2,8 +2,8 @@
 export interface IScreen {
     screen : string,
     titulo :string,
-    route : string,
-    cards : ICard[]
+    route? : string,
+    cards? : ICard[]
 }
 
 export interface ICard {

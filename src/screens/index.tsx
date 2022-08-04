@@ -1,2 +1,3 @@
 export { Home } from "./Home";
-export { Deposito } from "./Deposito"
+export { ProductInfo } from "./ProductInfo"
+export {Contacto} from "./Contacto"

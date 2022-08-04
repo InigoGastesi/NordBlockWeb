@@ -3,7 +3,7 @@ import {
     Route,
     Routes
   } from "react-router-dom";
-import { Deposito, Home } from "../screens";
+import { ProductInfo, Home, Contacto } from "../screens";
 import Context from "../context/Context";
 
 
@@ -13,7 +13,8 @@ export function Router() {
     return(
         <Routes>
             <Route path="/" element={<Home/>}/>
-            {screenInfo?.map(({ screen, titulo, route }) => {return <Route path={route} element={<Deposito screen={screen} titulo={titulo}/>}></Route>})}
+            {screenInfo?.map(({ screen, titulo, route }) => {if(screen!="Contacto"){return <Route path={route} element={<ProductInfo screen={screen} titulo={titulo}/>}></Route>}})}
+            <Route path="/contacto" element={<Contacto></Contacto>}/>
         </Routes>
     )
 }

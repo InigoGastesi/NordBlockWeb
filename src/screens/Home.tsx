@@ -20,8 +20,8 @@ export function Home() {
         if (i != 0) {
           return <Card titulo={titulo} info={info} images={images} />;
         }
-      })}
-      
+      })}        
     </div>
+    
   );
 }
