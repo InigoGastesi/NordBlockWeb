@@ -27,18 +27,33 @@
     "cards": [
       {
         "titulo": "Depositos Circulares",
-        "info": "Zanquiles ha diseñado un sistema sistema innovador, con juntas anilladas patentadas. Este sistema permite fabricar los depósitos con acabados de máxima calidad y realizar un montaje sencillo y rápido en obra. Nuestros depósitos han sido montados por cientos de constructoras del país, y utilizado en todos los territorios de la peninsula iberica. Respondiendo a los máximos estándares de calidad y estanqueidad. \nNuesto sistema patentado y cálculos permiten ser enterrados.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_df913fb53fe1a9104161727059a71fe0.jpg?alt=media&token=84ea36d8-44c5-4c9b-9680-3a5b93a16a3d"]
+        "info": "Nord Block, como heredero de los sistemas patentados de Zanquiles, incorpora en su diseño el depósito circular con uniones anilladas.El sistema permite un montaje sencillo, garantiza la estanqueidad y la maxima calidad en el acabado. Ademas la tipologia del deposito permite montarlo sobre una losa de cimentación con cuantias reducidas en comparacion con os depósitos prefabricados realizados por piezas sobre zapata. Los depósitos pueden ser en superficie o enterrados, abiertos o cerrados. Nuestra ingenieria prepara un proyecto completo del depósito, cumpliendo todas las especificaciones requeridas por nuestros clientes. ",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_circular_1.jpg?alt=media&token=76e11c8f-b340-43a5-a374-8096a4b95015"]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Depósitos con nervado exterior",
+        "info": "Los depositos nervados de Nord-Block, permiten realizar depósitos de gran capacidad. El acabado con nervado exterior, permite una gran facilidad en el sellado, con un acabado impecable, ya que el nervio se fabrica contra molde. Los depósitos permiten laminas de agua de hasta 7 m. Pueden ser en superficie o enterrados, con o sin camara de llaves. Nuestro sistema nervado es considerado como uno de los mejores del mercado por las ingenierias y administraciones, al trabajar con un sistema de zapata tradicional y un atado superior perimetral, evitando post y pre-tensados. Permite construir depósitos de alta versatilidad para las diferentes necistades del cliente. Varios vasos, altas resistencias, recogidad de aguas torrenciales, depuradoras, edars.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_nervado_1.jpg?alt=media&token=09d4f425-7839-47ef-b473-3a37aa8c5d5d"]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Depósitos con nervado interior",
+        "info": "Esta tipológia de deposito permite un acabado en piedra natural. El acabado es impecable, los nervios se fabrican contra molde y la cara exterior se puede chapar con piedra natural, pizarra, etc.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_nervado_piedra_2.jpg?alt=media&token=bc47b652-2702-4569-b094-41b2a84f3807"]
+      },
+      {
+        "titulo": "Depósitos elevados",
+        "info": "Estructuras prefabricadas de máxima seguridad. Son fruto de la evolución de nuestros sistemas circulares patentados. Los depositos elevados de Nord Block heredan el sistema de Zanquiles. Permiten un montaje rápido y sencillo. Toda la estructura es prefabricada y es montada mediante nuestro sistema de atado innovador. Con decenas de depósitos elevados en diferentes poblaciones a lo largo de toda la geografia española",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_elevado_4.jpg?alt=media&token=9b5cb46b-52aa-43f2-920d-9ba10fb29666"]
+      },
+      {
+        "titulo": "Depuradoras EDARS, ETAPS",
+        "info": "Desde 15 habitantes hasta EDAR y ETAP intensivas. Depuradoras compactas de 15 a 750 habitantes. Con decantador y filtro biológico. Sin manenimineto y fácil de instalar. EDARs y ETAPs de todos los tamaños y de todas las dimensiones. Cumplen estandares necesarios. Rápida ejecución en obra.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/depuradora_3.jpg?alt=media&token=9062f164-df80-459c-ab73-cd86b28663b6"]
+      },
+      {
+        "titulo": "Pozos de diámetro 2,41 m y 3,5 m",
+        "info": "Pozos formados por anillos prefabricados de hormigón. Sistema de anillos para pozos de bombeo, filtros, decantadores. Se pueden enterrar completamente. Resistentes al paso. Económicos y de fácil transporte y montaje.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/pozos_1.jpg?alt=media&token=633c41b1-8674-4f44-a118-fef0b2938587"]
       }
     ]
   },
@@ -87,7 +102,7 @@
     ]
   },
   {
-    "screen": "Losas",
+    "screen": "Prelosas",
     "titulo" : "",
     "route": "/losas",
     "cards": [

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/NordBlock_-_Brandmark_-_Full_color_-_Digital_-_Alpha.svg";
+import logo from "../assets/NordBlock_-_Horizontal_-_Full_color_-_Digital_-_Small_-_Alpha.svg";
 import Context from "../context/Context";
 
 
@@ -9,7 +9,7 @@ export function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-blue w-screen flex  justify-between py-2">
+    <div className="bg-blue w-screen flex  justify-between py-4">
       <div className="flex flex-1 flex-row justify-between my-auto px-10">
         <img src={logo} />
 
