@@ -8,7 +8,7 @@ export function Home() {
   let data = screenInfo?.find((e) => e.screen == "Home");
   let cards = data?.cards;
   return (
-    <div className="grid grid-cols-2 w-screen gap-8 p-8">
+    <div className="grid grid-cols-2 w-full gap-8 p-8">
       <div className="md:col-span-2">
         <Card
           titulo={data!.cards[0].titulo}
