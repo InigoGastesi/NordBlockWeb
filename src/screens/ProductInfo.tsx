@@ -2,7 +2,7 @@ import { Navbar, Card, Minicard, Productdescriptor } from "../components";
 import Context from "../context/Context";
 import { useContext } from "react";
 import { IScreen } from "../interface/jsondata";
-import { Link, Element, animateScroll as scroll } from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 export function ProductInfo({ screen, titulo }: IScreen) {
   const screenInfo = useContext(Context);
@@ -26,7 +26,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
       <div className="grid grid-cols-1 w-screen gap-8 p-8 px-80 h-screen">
         {cards?.map(({ titulo, info, images }) => {
           return (
-            <div>
+            <div className="h-[28rem]">
               <Element name={titulo}></Element>
               <Productdescriptor
                 titulo={titulo}
