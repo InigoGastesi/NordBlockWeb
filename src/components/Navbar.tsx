@@ -9,8 +9,8 @@ export function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-blue w-screen flex justify-between py-4">
-      <div className="flex flex-1 flex-row justify-between my-auto md:px-10">
+    <nav className="bg-blue flex justify-between py-4 px-0">
+      <div className="flex flex-1 flex-row justify-between my-auto">
         <img src={logo} />
 
         <div className="hidden md:block">
@@ -19,6 +19,6 @@ export function Navbar() {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }

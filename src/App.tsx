@@ -9,7 +9,7 @@ import Context from "./context/Context";
 
 function App() {
   return (
-    <div>
+    <div className="w-screen">
       <Context.Provider value={screenInfo}>
         <BrowserRouter>
           <Navbar />

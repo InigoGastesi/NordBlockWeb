@@ -10,7 +10,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
 
   let cards = data?.cards;
   return (
-    <div>
+    <div className="w-screen">
       <h1 className="font-poppins md:py-8 md:px-32 text-blue font-bold text-3xl">
         {titulo}
       </h1>
@@ -26,7 +26,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
       <div className="grid grid-cols-1 w-screen gap-8 md:px-80 sm:px-2 h-screen">
         {cards?.map(({ titulo, info, images }) => {
           return (
-            <div className="md:h-[28rem] pt-2 sm:h-screen">
+            <div className="md:h-[29rem] pt-2 sm:h-screen">
               <Element name={titulo}></Element>
               <Productdescriptor
                 titulo={titulo}

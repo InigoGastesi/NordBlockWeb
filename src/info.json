@@ -5,24 +5,25 @@
     "route": "/",
     "cards": [
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "La Empresa",
+        "info": "Nord Block nace con un equipo con mas de 25 años de experiencia en el mundo del prefabricado, tanto en edificación residencial como en obra civil.",
+        "images": [""]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. t arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },{
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Misión",
+        "info": "Somos herederos de los innovadores sistemas de Zanquiles y junto con la experiencia de nuestro personal tenemos los minbres para ser una referencia en sus proyectos de prefabricado.",
+        "images": [""]
+      },
+      {
+        "titulo": "Recursos",
+        "info": "Disponemos de unas instaciones de 5.300 m² y un equipo humano con experiencia capaz de asumir cualquier reto con un resultado optimo en la calidad del producto como en el servicio al cliente.",
+        "images": [""]
       }
     ]
   },
   {
     "screen": "Deposito",
-    "titulo" : "Depositos prefabricados de hormigón",
+    "titulo" : "Depósitos prefabricados de hormigón",
     "route": "/deposito",
     "cards": [
       {
@@ -58,90 +59,75 @@
     ]
   },
   {
-    "screen": "Gradas y vigas",
-    "titulo" : "",
-    "route": "/gradas",
+    "screen": "Muros",
+    "titulo" : "Muros de contención, estribos y pasos inferiores",
+    "route": "/contencion",
     "cards": [
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Muros de contención",
+        "info": "El muro de contención de Nord Block, es el muro clasico con contrafuerte. La versatilidad de nuestros moldes permite llegar a nuestros muros a alturas de contención de hasta 18 m. Nuestros técnicos realizan todos los cálculos necesarios para su proyecto, tanto zapatas como piezas, suministrando toda la documentación necesaria. Los muros modulares de Nord Block estan machihembrados lo que mejora notablemente el aspecto de las juntas, en comparación con nuestros competidores. También disponemos de acabados naturales ( Chapeados en piedra o pizarra), o con texturas",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/muro_piedra_1.jpg?alt=media&token=f43d9e76-cf9c-4784-8df0-837c38cb6e24"]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Estribos para puente o viaducto",
+        "info": "El sistema de Nord Block también se utiliza como apoyo de vigas de puentes y viaaductos. El apoyo puede ser de vigas sobre cargadero o apoyos directos con vigas tipo artesa.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/estribo_2.JPG?alt=media&token=28774e2e-5f1a-4c60-8f0d-f938d0679d61"]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Pasos inferiores",
+        "info": "Podemos realizar proyectos de pasos inferiores tanto con dintel empotrado como apoyado. Los pasos se realizan combinando nuestros modulos de muro y nuestras prelosas.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/paso_inferior_1.JPG?alt=media&token=274b9b5d-95ae-4768-83c6-068601c59f66"]
+      }
+    ]
+  },
+  {
+    "screen": "Graderios",
+    "titulo" : "Graderios, placas de remate, vigas zancas, elementos auxiliares",
+    "route": "/gradas",
+    "cards": [      
+      {
+        "titulo": "Gradas y placas de remate",
+        "info": "Nuestro equipo de diseño, adaptara su proyecto a la legislacion actual en instalaciones deportivas y plazas de toros. De la mano de nuestros expertos obtendrá las mejores soluciones a su proyecto. El calculo de nuestras gradas, y placas de remateestan adaptados al Código Estructural 2021.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/graderio_8.jpg?alt=media&token=84cbbd44-8462-42e6-84a2-e43d35f791dd"]
+      },
+      {
+        "titulo": "Vigas zancas y pilares",
+        "info": "La oficina técnica de Nord Block, realizará el cálculo de la estructura, tanto vigas zancas, como pilares adaptados a nuestros prefabricados. Con nuestros sistemas, el montaje de estructura es mucho más rapido, garantizado un acabado de los elementos muy superior a la construcción 'IN-SITU'",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/graderio_1.jpg?alt=media&token=702d2a78-609f-4cd7-bc71-7e1b349b1ee0"]
+      },
+      {
+        "titulo": "Peldaños, petos, antepechos y gradas de arranque",
+        "info": "En Nord Block deiponemos de todos los elementos necesarios para la realizacion de su graderio, peldaños, antepechos, gradas de arranque, etc ",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/graderio_7.jpg?alt=media&token=5cab5b20-d1f0-4b69-b270-0d12dca6e8b7"]
       }
     ]
   },
   {
     "screen": "Cementerios",
-    "titulo" : "",
+    "titulo" : "Nichos, tumbas y placas de cierre",
     "route": "/cementerios",
     "cards": [
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Nichos y tumbas",
+        "info": "En Nord block disponemos de nichos y tumbas para la ejecución de cementerios. También podemos realizar las placas de cierre y losas superiores de terminación",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/nichos_1.jpg?alt=media&token=6e555a2a-6abf-459a-b4a7-7389cce015ea"]
       }
     ]
   },
   {
     "screen": "Prelosas",
-    "titulo" : "",
+    "titulo" : "Prelosas armadas y prelosas nervadas",
     "route": "/losas",
     "cards": [
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Prelosas armadas",
+        "info": "Nord Block realiza su forjado con prelosa armada, suministrando las prelosas en obra según el plan de montaje del cliente 'just in timee'",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/prelosa_2.jpg?alt=media&token=3b4dbb45-e281-406a-bd6f-793f07d93e9b"]
       },
       {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      }
-    ]
-  },
-  {
-    "screen": "Muro de contención",
-    "titulo" : "",
-    "route": "/contencion",
-    "cards": [
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
-      },
-      {
-        "titulo": "NordBlock",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus dolor nec justo aliquam dictum. Nam vulputate a arcu vitae ultricies. Curabitur in suscipit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/f43db0_e4cf0af8867ad83874f54abb0f18dd33.jpg?alt=media&token=c1497efd-532e-492b-a911-ff2f0ab26083"]
+        "titulo": "Prelosas armadas nervadas",
+        "info": "Con esta tipologia de prelosa se puede llegar a luces y cargas mayores. Son muy adecuadas para realizar forjados aligerados con cargas y luces importantes.",
+        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/prelosa_nervada_1.jpg?alt=media&token=541d56de-fa7c-4df1-90e6-6c50b0d0a9b3"]
       }
     ]
   },
