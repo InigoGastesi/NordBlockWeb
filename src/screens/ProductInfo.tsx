@@ -35,7 +35,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
             })}
           </div>
 
-          <div className="grid grid-cols-1 gap-8 h-screen w-full pb-4">
+          <div className="grid grid-cols-1 gap-8 pb-8 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (
                 <div className="md:h-[29rem] pt-2 sm:h-screen">
