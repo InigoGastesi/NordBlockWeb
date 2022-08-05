@@ -8,6 +8,6 @@ export interface IScreen {
 
 export interface ICard {
     titulo : string,
-    info : string,
-    images : string[]
+    info? : string,
+    images? : string[]
 }

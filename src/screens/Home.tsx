@@ -11,9 +11,9 @@ export function Home() {
     <div className="grid grid-cols-2 w-full gap-8 p-8">
       <div className="md:col-span-2">
         <Card
-          titulo={data!.cards[0].titulo}
-          info={data!.cards[0].info}
-          images={data!.cards[0].images}
+          titulo={data!.cards![0].titulo}
+          info={data!.cards![0].info}
+          images={data!.cards![0].images}
         ></Card>
       </div>
       {cards?.map(({ titulo, info, images }, i) => {

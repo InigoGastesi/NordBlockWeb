@@ -4,7 +4,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export function Contacto() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,13 +27,13 @@ export function Contacto() {
   };
 
   return (
-    <div className="w-screen flex flex-col justify-center text-poppins">
-      <h1 className="font-poppins md:py-8 md:px-32 text-blue font-bold text-3xl">
+    <div className="w-screen flex flex-col justify-center font-poppins text-blue">
+      <h1 className="font-poppins md:py-8 md:px-32 font-bold text-3xl">
         Contacto
       </h1>
       <div className="flex justify-center">
         <form
-          className="w-1/2 grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-lg p-10"
+          className="w-1/2 grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-md p-10"
           onSubmit={sendEmail}
           ref={form}
         >

@@ -11,12 +11,12 @@ export function ProductInfo({ screen, titulo }: IScreen) {
   let cards = data?.cards;
   return (
     <div className="w-full">
-      <h1 className="font-poppins md:py-8 md:px-32 text-blue font-bold text-3xl">
+      <h1 className="font-poppins lg:py-8 lg:px-32 text-blue font-bold text-center lg:text-3xl text-xl pt-4 px-14">
         {titulo}
       </h1>
       <div className="flex justify-center w-full">
-        <div className="flex flex-col w-3/5">
-          <div className="grid grid-cols-3 md:gap-x-20 md:gap-y-5 w-full">
+        <div className="flex flex-col lg:w-3/5 w-5/6">
+          <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-20 lg:gap-y-5 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (
                 <Link
@@ -24,6 +24,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
                   to={titulo}
                   smooth={true}
                   duration={500}
+                  offset={-10}
                 >
                   <Minicard
                     titulo={titulo}
@@ -35,10 +36,10 @@ export function ProductInfo({ screen, titulo }: IScreen) {
             })}
           </div>
 
-          <div className="grid grid-cols-1 gap-8 pb-8 w-full">
+          <div className="grid grid-cols-1 gap-8 py-8 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (
-                <div className="md:h-[29rem] pt-2 sm:h-screen">
+                <div className="lg:h-[29rem] pt-2">
                   <Element name={titulo}></Element>
                   <Productdescriptor
                     titulo={titulo}
