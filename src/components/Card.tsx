@@ -8,9 +8,9 @@ export function Card({ titulo, info, images }: ICard) {
       style={{ backgroundImage: `url(${images[0]})`, backgroundSize: "cover" }}
     >
       
-      <div className="md:flex flex-col font-poppins w-1/2 p-8">
-        <h1 className="font-poppins font-bold uppercase">{titulo}</h1>
-        <p>
+      <div className="flex flex-col font-poppins w-1/2 p-8">
+        <h1 className="text-blue font-poppins font-bold uppercase">{titulo}</h1>
+        <p className="pt-4">
           {info}
         </p>
       </div>

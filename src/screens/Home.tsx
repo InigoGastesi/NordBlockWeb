@@ -18,7 +18,7 @@ export function Home() {
       </div>
       {cards?.map(({ titulo, info, images }, i) => {
         if (i != 0) {
-          return <Card titulo={titulo} info={info} images={images} />;
+          return <div className="sm:col-span-2 md:col-span-1"><Card titulo={titulo} info={info} images={images} /></div>;
         }
       })}        
     </div>

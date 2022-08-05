@@ -11,10 +11,10 @@ export function ProductInfo({ screen, titulo }: IScreen) {
   let cards = data?.cards;
   return (
     <div>
-      <h1 className="font-poppins py-8 px-32 text-blue font-bold text-3xl">
+      <h1 className="font-poppins md:py-8 md:px-32 text-blue font-bold text-3xl">
         {titulo}
       </h1>
-      <div className="grid grid-cols-3 w-screen gap-20 p-8 px-80">
+      <div className="grid grid-cols-3 w-screen md:gap-20 md:p-8 md:px-80">
         {cards?.map(({ titulo, info, images }) => {
           return (
             <Link activeClass="active" to={titulo} smooth={true} duration={500}>
@@ -23,10 +23,10 @@ export function ProductInfo({ screen, titulo }: IScreen) {
           );
         })}
       </div>
-      <div className="grid grid-cols-1 w-screen gap-8 p-8 px-80 h-screen">
+      <div className="grid grid-cols-1 w-screen gap-8 md:px-80 sm:px-2 h-screen">
         {cards?.map(({ titulo, info, images }) => {
           return (
-            <div className="h-[28rem]">
+            <div className="md:h-[28rem] pt-2 sm:h-screen">
               <Element name={titulo}></Element>
               <Productdescriptor
                 titulo={titulo}

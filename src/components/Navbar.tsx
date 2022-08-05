@@ -9,11 +9,11 @@ export function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-blue w-screen flex  justify-between py-4">
-      <div className="flex flex-1 flex-row justify-between my-auto px-10">
+    <div className="bg-blue w-screen flex justify-between py-4">
+      <div className="flex flex-1 flex-row justify-between my-auto md:px-10">
         <img src={logo} />
 
-        <div>
+        <div className="hidden md:block">
           <ul className="flex flex-row grow">
             {screenInfo?.map(({ screen, route }) => {return <li className="p-4 font-poppins text-white hover:text-pink cursor-pointer" onClick={()=>navigate(route)}>{screen}</li>})}
           </ul>
