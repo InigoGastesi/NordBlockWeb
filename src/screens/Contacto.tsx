@@ -27,13 +27,13 @@ export function Contacto() {
   };
 
   return (
-    <div className="w-screen flex flex-col justify-center font-poppins text-blue">
-      <h1 className="font-poppins md:py-8 md:px-32 font-bold text-3xl">
+    <div className="w-screen flex flex-col justify-center font-poppins text-blue pb-4">
+      <h1 className="font-poppins lg:py-8 lg:px-32  text-center lg:text-left py-4 font-bold text-3xl">
         Contacto
       </h1>
       <div className="flex justify-center">
         <form
-          className="w-1/2 grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-md p-10"
+          className="lg:w-1/2 w-5/6 grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-md p-10"
           onSubmit={sendEmail}
           ref={form}
         >

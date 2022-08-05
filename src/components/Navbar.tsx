@@ -13,16 +13,16 @@ export function Navbar() {
 
   return (
     <nav className="bg-blue flex flex-col justify-between py-4 px-0">
-      <div className="flex flex-1 lg:flex-row justify-between my-auto lg:px-0 px-8">
-        <img src={logolarge} className="hidden lg:block" />
-        <img src={logo} className="lg:hidden block" />
+      <div className="flex flex-1 lg:flex-row justify-between justify-items-center lg:my-auto lg:px-0 px-8">
+        <img src={logolarge} onClick={() => navigate("/")} className="hidden lg:block" />
+        <img src={logo} onClick={() => navigate("/")} className="lg:hidden block" />
 
         <div className="hidden lg:block">
           <ul className="flex flex-row grow">
             {screenInfo?.map(({ screen, route }) => {
               return (
                 <li
-                  className="p-4 font-poppins text-white hover:text-pink cursor-pointer"
+                  className="p-4 font-poppins text-white hover:text-pink cursor-pointer text-base"
                   onClick={() => navigate(route)}
                 >
                   {screen}
@@ -31,23 +31,25 @@ export function Navbar() {
             })}
           </ul>
         </div>
-        <div className="lg:hidden text-pink" onClick={handleClick}>
+        <div className="lg:hidden text-pink pt-2" onClick={handleClick}>
           {!nav ? <MenuIcon className="w-10" /> : <XIcon className="w-10" />}
         </div>
       </div>
-      <ul className={!nav ? "hidden" : "w-full"}>
-        {screenInfo?.map(({ screen, route }) => {
-          return (
-            <li
-              className="p-4 font-poppins
-              text-white hover:text-pink cursor-pointer"
-              onClick={() => navigate(route)}
-            >
-              {screen}
-            </li>
-          );
-        })}
-      </ul>
+      <div className="block lg:hidden">
+        <ul className={!nav ? "hidden" : "w-full"}>
+          {screenInfo?.map(({ screen, route }) => {
+            return (
+              <li
+                className="p-4 font-poppins text-sm
+                text-white hover:text-pink cursor-pointer"
+                onClick={() => navigate(route)}
+              >
+                {screen}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </nav>
   );
 }

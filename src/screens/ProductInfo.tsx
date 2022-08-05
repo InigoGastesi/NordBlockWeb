@@ -11,7 +11,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
   let cards = data?.cards;
   return (
     <div className="w-full">
-      <h1 className="font-poppins lg:py-8 lg:px-32 text-blue font-bold text-center lg:text-3xl text-xl pt-4 px-14">
+      <h1 className="font-poppins lg:py-8 lg:px-32 text-blue font-bold text-center lg:text-left lg:text-3xl text-xl pt-4 px-14">
         {titulo}
       </h1>
       <div className="flex justify-center w-full">
@@ -39,7 +39,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
           <div className="grid grid-cols-1 gap-8 py-8 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (
-                <div className="lg:h-[29rem] pt-2">
+                <div className="pt-2 w-full">
                   <Element name={titulo}></Element>
                   <Productdescriptor
                     titulo={titulo}
