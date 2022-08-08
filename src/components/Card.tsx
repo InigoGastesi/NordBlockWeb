@@ -5,7 +5,7 @@ export function Card({ titulo, info, images }: ICard) {
     
     <div
       className={`rounded-lg drop-shadow-md min-h-80 py-10 w-full`}
-      style={{ backgroundImage: `url(${images[0]})`, backgroundSize: "cover" }}
+      style={{ backgroundImage: `url(${images![0]})`, backgroundSize: "cover" }}
     >
       
       <div className="flex flex-col font-poppins w-1/2 p-8">

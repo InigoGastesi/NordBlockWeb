@@ -1,2 +1,6 @@
 node_modules
 apuntes.txt
+dist
+.firebase
+.firebaserc
+firebase.json

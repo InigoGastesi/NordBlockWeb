@@ -4,7 +4,7 @@ export function Productdescriptor({ titulo, info, images }: ICard) {
   return (
     <div className="xl:flex xl:flex-row xl:gap-x-8 w-full drop-shadow-md rounded-md bg-gray-100 justify-between">
       <div
-        className="rounded-lg drop-shadow-md px-72 justify-between"
+        className=" rounded-l-lg drop-shadow-md px-72 justify-between"
         style={{
           backgroundImage: `url(${images![0]})`,
           backgroundSize: "cover",

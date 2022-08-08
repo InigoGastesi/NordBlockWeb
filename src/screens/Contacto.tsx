@@ -1,12 +1,12 @@
 import { Formik } from "formik";
 import { SMTPClient } from "emailjs";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export function Contacto() {
-  const form = useRef<HTMLFormElement>();
+  const form = useRef<any>();
 
-  const sendEmail = (e) => {
+  const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs

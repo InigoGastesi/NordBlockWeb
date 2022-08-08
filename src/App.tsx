@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Context.Provider value={screenInfo}>
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <Navbar />
           <Router />
         </BrowserRouter>

@@ -23,7 +23,7 @@ export function Navbar() {
               return (
                 <li
                   className="p-4 font-poppins text-white hover:text-pink cursor-pointer text-base"
-                  onClick={() => navigate(route)}
+                  onClick={() => navigate(route!)}
                 >
                   {screen}
                 </li>
@@ -42,7 +42,7 @@ export function Navbar() {
               <li
                 className="p-4 font-poppins text-sm
                 text-white hover:text-pink cursor-pointer"
-                onClick={() => navigate(route)}
+                onClick={() => navigate(route!)}
               >
                 {screen}
               </li>

@@ -6,7 +6,7 @@ export function Minicard({ titulo, info, images }: ICard) {
       <div
         className="rounded-lg drop-shadow-md py-20 h-44 cursor-pointer"
         style={{
-          backgroundImage: `url(${images[0]})`,
+          backgroundImage: `url(${images![0]})`,
           backgroundSize: "cover",
         }}
       ></div>
