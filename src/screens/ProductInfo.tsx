@@ -15,7 +15,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
         {titulo}
       </h1>
       <div className="flex justify-center w-full">
-        <div className="flex flex-col lg:w-3/5 w-5/6">
+        <div className="flex flex-col xl:w-4/6 lg:w-4/5 w-5/6">
           <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-20 lg:gap-y-5 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (

@@ -1,4 +1,4 @@
-import { Card, Minicard } from "../components";
+import { Card, Footer, Minicard } from "../components";
 import background from "../assets/deposito_1.jpg";
 import Context from "../context/Context";
 import { useContext } from "react";
@@ -20,7 +20,7 @@ export function Home() {
         if (i != 0) {
           return <div className="sm:col-span-2 md:col-span-1"><Card titulo={titulo} info={info} images={images} /></div>;
         }
-      })}        
+      })}
     </div>
     
   );

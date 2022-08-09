@@ -2,6 +2,7 @@ import { Formik } from "formik";
 import { SMTPClient } from "emailjs";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Footer } from "../components";
 
 export function Contacto() {
   const form = useRef<any>();
@@ -27,7 +28,7 @@ export function Contacto() {
   };
 
   return (
-    <div className="w-screen flex flex-col justify-center font-poppins text-blue pb-4">
+    <div className="w-full flex flex-col justify-center font-poppins text-blue">
       <h1 className="font-poppins lg:py-8 lg:px-32  text-center lg:text-left py-4 font-bold text-3xl">
         Contacto
       </h1>
@@ -53,6 +54,7 @@ export function Contacto() {
           </div>
         </form>
       </div>
+      <div className="py-40"></div>
     </div>
   );
 }

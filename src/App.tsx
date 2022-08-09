@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
-import { Navbar, Card } from "./components";
+import { Navbar, Card, Footer } from "./components";
 import { Router } from "./router";
 import { Home } from "./screens";
 import screenInfo from "./info.json";
@@ -16,7 +16,7 @@ function App() {
           <Router />
         </BrowserRouter>
       </Context.Provider>
-      
+      <Footer></Footer>      
     </div>
   );
 }
