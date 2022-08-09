@@ -14,7 +14,7 @@ export function Productdescriptor({ titulo, info, images }: ICard) {
           backgroundPosition: "center"
         }}
         ></div> */}
-      <div className="rounded-l-lg drop-shadow-md lg:w-1/2">
+      <div className="rounded-l-lg drop-shadow-md lg:w-1/2 hidden lg:block">
         <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} className="object-fill">
           {images?.map((url)=>{return (<div><img src={url} className="object-fill rounded-l-md"></img></div>)})}
         </Carousel>
