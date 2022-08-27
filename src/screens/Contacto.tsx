@@ -30,7 +30,7 @@ export function Contacto() {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center font-poppins text-blue h-screen">
+    <div className="w-full flex flex-col font-poppins text-blue h-screen">
       <h1 className="font-poppins lg:py-8 lg:px-32  text-center lg:text-left py-4 font-bold text-3xl">
         Contacto
       </h1>
@@ -45,7 +45,7 @@ export function Contacto() {
           <span>Email</span>
           <input type="email" name="user_email" />
           <span className="text-poppins ">Mensaje</span>
-          <textarea name="message" />
+          <textarea name="message" className=""/>
           <div className="flex flex-row justify-center pt-5">
             <button
               type="submit"

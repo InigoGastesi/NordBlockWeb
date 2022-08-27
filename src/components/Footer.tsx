@@ -2,7 +2,7 @@ import logolarge from "../assets/NordBlock_-_Horizontal_-_Full_color_-_Digital_-
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import Context from "../context/Context";
-import {HomeIcon, PhoneIcon, MailIcon} from "@heroicons/react/outline";
+import { HomeIcon, PhoneIcon, MailIcon } from "@heroicons/react/outline";
 
 export function Footer() {
   const screenInfo = useContext(Context);
@@ -38,16 +38,33 @@ export function Footer() {
           <h1 className="font-uppercase font-bold pb-8">Contacto</h1>
           <ul className="flex flex-col grow">
             <li className="text-white flex flex-cols py-1">
-                <div><HomeIcon className="w-6"></HomeIcon></div>
-                <a className="pl-3 cursor-pointer" href="https://goo.gl/maps/nfRNFDBdUrobQDwN6">Carretera del Vascón Km. 2, 09612 Pinilla de los Barruecos, Burgos</a>
+              <div>
+                <HomeIcon className="w-6"></HomeIcon>
+              </div>
+              <a
+                className="pl-3 cursor-pointer"
+                href="https://goo.gl/maps/nfRNFDBdUrobQDwN6"
+              >
+                Carretera del Vascón Km. 2, 09612 Pinilla de los Barruecos,
+                Burgos
+              </a>
             </li>
             <li className="text-white flex flex-cols py-1">
-                <div><PhoneIcon className="w-6"></PhoneIcon></div>
-                <p className="pl-3">+34 622 06 87 73</p>
+              <div>
+                <PhoneIcon className="w-6"></PhoneIcon>
+              </div>
+              <p className="pl-3">+34 622 06 87 73</p>
             </li>
             <li className="text-white flex flex-cols py-1">
-                <div><MailIcon className="w-6"></MailIcon></div>
-                <a className="pl-3 cursor-pointer" href="mailto:jccardenas@nord-block.com">jccardenas@nord-block.com</a>
+              <div>
+                <MailIcon className="w-6"></MailIcon>
+              </div>
+              <a
+                className="pl-3 cursor-pointer"
+                href="mailto:jccardenas@nord-block.com"
+              >
+                jccardenas@nord-block.com
+              </a>
             </li>
           </ul>
         </div>
