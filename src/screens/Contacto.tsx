@@ -30,7 +30,7 @@ export function Contacto() {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center font-poppins text-blue">
+    <div className="w-full flex flex-col justify-center font-poppins text-blue h-screen">
       <h1 className="font-poppins lg:py-8 lg:px-32  text-center lg:text-left py-4 font-bold text-3xl">
         Contacto
       </h1>
@@ -56,8 +56,7 @@ export function Contacto() {
           </div>
         </form>
       </div>
-      <div className="py-60"></div>
-      <Footer></Footer>
+      <div className="mt-auto"><Footer></Footer></div>
     </div>
   );
 }

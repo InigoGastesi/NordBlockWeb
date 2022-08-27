@@ -10,7 +10,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
 
   let cards = data?.cards;
   return (
-    <div className="w-full">
+    <div className="w-full h-screen">
       <h1 className="font-poppins lg:py-8 lg:px-32 text-blue font-bold text-center lg:text-left lg:text-3xl text-xl pt-4 px-14">
         {titulo}
       </h1>
@@ -52,8 +52,7 @@ export function ProductInfo({ screen, titulo }: IScreen) {
           </div>
         </div>
       </div>
-      <div className="py-20"></div>
-      <Footer></Footer>
+      <div className="mt-auto"><Footer></Footer></div>
     </div>
   );
 }
