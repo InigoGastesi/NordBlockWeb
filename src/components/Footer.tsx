@@ -43,11 +43,11 @@ export function Footer() {
             </li>
             <li className="text-white flex flex-cols py-1">
                 <div><PhoneIcon className="w-6"></PhoneIcon></div>
-                <a className="pl-3">+34 622 06 87 73</a>
+                <p className="pl-3">+34 622 06 87 73</p>
             </li>
             <li className="text-white flex flex-cols py-1">
                 <div><MailIcon className="w-6"></MailIcon></div>
-                <a className="pl-3">+34 622 06 87 73</a>
+                <a className="pl-3 cursor-pointer" href="mailto:jccardenas@nord-block.com">jccardenas@nord-block.com</a>
             </li>
           </ul>
         </div>
