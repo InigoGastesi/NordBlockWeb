@@ -1,6 +1,6 @@
 import { ICard } from "../interface/jsondata";
 
-export function Card({ titulo, info, images }: ICard) {
+export function Card({ titulo, info, images, color }: ICard) {
   return (
     
     <div
@@ -9,8 +9,8 @@ export function Card({ titulo, info, images }: ICard) {
     >
       
       <div className="flex flex-col font-poppins w-1/2 p-8">
-        <h1 className="text-blue font-poppins font-bold uppercase">{titulo}</h1>
-        <p className="pt-4">
+        <h1 className={color ? 'text-blue font-poppins font-bold uppercase' : 'text-white font-poppins font-bold uppercase'}>{titulo}</h1>
+        <p className={color ? 'text-blue pt-4' : 'text-white pt-4'}>
           {info}
         </p>
       </div>

@@ -8,20 +8,28 @@ export function Home() {
   let data = screenInfo?.find((e) => e.screen == "Home");
   let cards = data?.cards;
   return (
-    <div className="grid grid-cols-2 w-full gap-8 p-8">
-      <div className="md:col-span-2">
-        <Card
-          titulo={data!.cards![0].titulo}
-          info={data!.cards![0].info}
-          images={data!.cards![0].images}
-        ></Card>
+    <div className="flex flex-col w-full bg-cover bg-[url('https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/imagen%20fondo%20home.jpg?alt=media&token=622d28ce-4589-423c-92d7-f6dccc15a17b')]">
+      <div className="grid grid-cols-2 w-full gap-8 p-8">
+        <div className="md:col-span-2">
+          <Card
+            titulo={data!.cards![0].titulo}
+            info={data!.cards![0].info}
+            images={data!.cards![0].images}
+            color={true}
+          ></Card>
+        </div>
+        {cards?.map(({ titulo, info, images }, i) => {
+          if (i != 0) {
+            return (
+              <div className="sm:col-span-2 md:col-span-1">
+                <Card titulo={titulo} info={info} images={images} color={false}/>
+              </div>
+            );
+          }
+        })}
       </div>
-      {cards?.map(({ titulo, info, images }, i) => {
-        if (i != 0) {
-          return <div className="sm:col-span-2 md:col-span-1"><Card titulo={titulo} info={info} images={images} /></div>;
-        }
-      })}
+      <div className="py-40"></div>
+      <Footer></Footer>
     </div>
-    
   );
 }

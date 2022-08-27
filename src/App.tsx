@@ -15,8 +15,7 @@ function App() {
           <Navbar />
           <Router />
         </BrowserRouter>
-      </Context.Provider>
-      <Footer></Footer>      
+      </Context.Provider>     
     </div>
   );
 }

@@ -20,9 +20,11 @@ export function Contacto() {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Mensaje enviado correctamente")
         },
         (error) => {
           console.log(error.text);
+          alert("Ha ocurrido un error, intentelo de nuevo")
         }
       );
   };
@@ -54,7 +56,8 @@ export function Contacto() {
           </div>
         </form>
       </div>
-      <div className="py-40"></div>
+      <div className="py-60"></div>
+      <Footer></Footer>
     </div>
   );
 }

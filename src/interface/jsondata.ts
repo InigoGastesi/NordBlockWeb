@@ -10,4 +10,5 @@ export interface ICard {
     titulo : string,
     info? : string,
     images? : string[]
+    color?: boolean
 }

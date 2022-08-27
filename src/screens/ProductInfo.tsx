@@ -1,4 +1,4 @@
-import { Navbar, Card, Minicard, Productdescriptor } from "../components";
+import { Navbar, Card, Minicard, Productdescriptor, Footer } from "../components";
 import Context from "../context/Context";
 import { useContext } from "react";
 import { IScreen } from "../interface/jsondata";
@@ -52,6 +52,8 @@ export function ProductInfo({ screen, titulo }: IScreen) {
           </div>
         </div>
       </div>
+      <div className="py-20"></div>
+      <Footer></Footer>
     </div>
   );
 }
