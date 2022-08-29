@@ -7,7 +7,7 @@ import { Footer } from "../components";
 export function Contacto() {
   const form = useRef<any>();
 
-  const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
@@ -20,23 +20,23 @@ export function Contacto() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Mensaje enviado correctamente")
+          alert("Mensaje enviado correctamente");
         },
         (error) => {
           console.log(error.text);
-          alert("Ha ocurrido un error, intentelo de nuevo")
+          alert("Ha ocurrido un error, intentelo de nuevo");
         }
       );
   };
 
   return (
-    <div className="w-full flex flex-col font-poppins text-blue h-screen">
-      <h1 className="font-poppins lg:py-8 lg:px-32  text-center lg:text-left py-4 font-bold text-3xl">
-        Contacto
-      </h1>
-      <div className="flex justify-center">
+    <div className="w-full font-poppins text-blue">
+      <div className="lg:w-1/2 w-5/6 flex flex-col mx-auto py-12">
+        <h1 className="font-poppins lg:pb-8 text-center lg:text-left pb-4 font-bold text-3xl">
+          Contacto
+        </h1>
         <form
-          className="lg:w-1/2 w-5/6 grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-md p-10"
+          className="grid grid-cols-1 content-around rounded-lg bg-gray-100 shadow-md p-10"
           onSubmit={sendEmail}
           ref={form}
         >
@@ -45,7 +45,7 @@ export function Contacto() {
           <span>Email</span>
           <input type="email" name="user_email" />
           <span className="text-poppins ">Mensaje</span>
-          <textarea name="message" className=""/>
+          <textarea name="message" className="h-40" />
           <div className="flex flex-row justify-center pt-5">
             <button
               type="submit"
@@ -56,7 +56,9 @@ export function Contacto() {
           </div>
         </form>
       </div>
-      <div className="mt-auto"><Footer></Footer></div>
+      <div className="mt-auto">
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

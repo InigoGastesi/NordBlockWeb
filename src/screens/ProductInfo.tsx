@@ -1,4 +1,10 @@
-import { Navbar, Card, Minicard, Productdescriptor, Footer } from "../components";
+import {
+  Navbar,
+  Card,
+  Minicard,
+  Productdescriptor,
+  Footer,
+} from "../components";
 import Context from "../context/Context";
 import { useContext } from "react";
 import { IScreen } from "../interface/jsondata";
@@ -11,11 +17,11 @@ export function ProductInfo({ screen, titulo }: IScreen) {
   let cards = data?.cards;
   return (
     <div className="w-full h-screen">
-      <h1 className="font-poppins lg:py-8 lg:px-32 text-blue font-bold text-center lg:text-left lg:text-3xl text-xl pt-4 px-14">
-        {titulo}
-      </h1>
       <div className="flex justify-center w-full">
         <div className="flex flex-col xl:w-4/6 lg:w-4/5 w-5/6">
+          <h1 className="font-poppins lg:py-8 text-blue font-bold text-center lg:text-left lg:text-3xl text-xl pt-4">
+            {titulo}
+          </h1>
           <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-20 lg:gap-y-5 w-full">
             {cards?.map(({ titulo, info, images }) => {
               return (
@@ -52,7 +58,9 @@ export function ProductInfo({ screen, titulo }: IScreen) {
           </div>
         </div>
       </div>
-      <div className="mt-auto"><Footer></Footer></div>
+      <div className="mt-auto">
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

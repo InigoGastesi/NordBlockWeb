@@ -44,6 +44,7 @@ export function Footer() {
               <a
                 className="pl-3 cursor-pointer"
                 href="https://goo.gl/maps/nfRNFDBdUrobQDwN6"
+                target="_blank"
               >
                 Carretera del Vascón Km. 2, 09612 Pinilla de los Barruecos,
                 Burgos

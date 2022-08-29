@@ -2,7 +2,7 @@ import { ICard } from "../interface/jsondata";
 
 export function Minicard({ titulo, info, images }: ICard) {
   return (
-    <div className="justify-center trainsition ease-in-out hover:scale-110 duration-300 cursor-pointer">
+    <div className="justify-center trainsition ease-in-out hover:scale-110 duration-300 cursor-pointer text-blue">
       <div
         className="rounded-lg drop-shadow-md py-20 h-44 cursor-pointer"
         style={{
