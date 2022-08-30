@@ -15,8 +15,8 @@ export function Navbar() {
   return (
     <nav className="bg-blue flex flex-col justify-between py-4 pr-2 px-0">
       <div className="flex flex-1 lg:flex-row justify-between justify-items-center lg:my-auto lg:px-0 px-8">
-        <img src={logolarge} onClick={() => navigate("/")} className="hidden lg:block" />
-        <img src={logo} onClick={() => navigate("/")} className="lg:hidden block" />
+        <img src={logolarge} onClick={() => navigate("/")} className="hidden lg:block cursor-pointer" />
+        <img src={logo} onClick={() => navigate("/")} className="lg:hidden block cursor-pointer" />
 
         <div className="hidden lg:block">
           <ul className="flex flex-row grow">
