@@ -43,7 +43,7 @@ export function Footer() {
               </div>
               <a
                 className="pl-3 cursor-pointer"
-                href="https://goo.gl/maps/nfRNFDBdUrobQDwN6"
+                href="https://goo.gl/maps/arEScujSuzaAfDao8"
                 target="_blank"
               >
                 Carretera del Vascón Km. 2, 09612 Pinilla de los Barruecos,
