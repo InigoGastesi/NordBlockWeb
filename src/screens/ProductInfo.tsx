@@ -17,6 +17,9 @@ export function ProductInfo({ screen, titulo }: IScreen) {
   let cards = data?.cards;
   return (
     <div className="w-full h-screen">
+      <head>
+        <title>{"Nord Block: " + titulo}</title>
+      </head>
       <div className="flex justify-center w-full">
         <div className="flex flex-col xl:w-4/6 lg:w-4/5 w-5/6">
           <h1 className="font-poppins lg:py-8 text-blue font-bold text-center lg:text-left lg:text-3xl text-xl pt-4">

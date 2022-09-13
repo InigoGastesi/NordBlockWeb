@@ -25,7 +25,7 @@ export function Productdescriptor({ titulo, info, images }: ICard) {
       </div>
       <div className="block lg:hidden rounded-t-md rounded-b-md drop-shadow-md lg:w-1/2">
         <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} className="object-fill">
-          {images?.map((url)=>{return (<div><img src={url} className="object-fill rounded-b-md lg:rounded-l-md"></img></div>)})}
+          {images?.map((url)=>{return (<div><img src={url} className="object-fill rounded-b-md lg:rounded-l-md" loading="lazy" alt={titulo}></img></div>)})}
         </Carousel>
       </div>
     </div>
