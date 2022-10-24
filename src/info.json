@@ -98,7 +98,12 @@
       {
         "titulo": "Peldaños, petos, antepechos y gradas de arranque",
         "info": "En Nord Block disponemos de todos los elementos necesarios para la realización de un graderío; peldaños, antepechos, gradas de arranque, etc ",
-        "images": ["https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/graderio_7.jpg?alt=media&token=5cab5b20-d1f0-4b69-b270-0d12dca6e8b7"]
+        "images": [ "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/graderio_7.jpg?alt=media&token=5cab5b20-d1f0-4b69-b270-0d12dca6e8b7" ]
+      },
+      {
+        "titulo": "Geometrias y tamaños normalizados",
+        "info": "En los cuadros pueden verse los tamaños mas habituales que fabricamos. En cualquier caso los casos desde Nord Block se puede realizar un proyecto completo si fuera necesario.",
+        "images": [ "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/Gradas%201.jpg?alt=media&token=d8aebe87-ee6b-4698-9305-3911f90cba9e", "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/Gradas%202.jpg?alt=media&token=fb67d45d-99dc-4182-9599-fd49740a2e84", "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/Gradas%203.jpg?alt=media&token=41709302-551d-43d1-99b9-ad13b798c174", "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_elevado_4.jpg?alt=media&token=9b5cb46b-52aa-43f2-920d-9ba10fb29666", "https://firebasestorage.googleapis.com/v0/b/nord-block.appspot.com/o/deposito_elevado_5.jpg?alt=media&token=dad4f339-43d6-4142-97cd-3433024653a3" ]
       }
     ]
   },
